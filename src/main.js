@@ -3,7 +3,7 @@ let style = document.querySelector('#style')
 let n = 0
 let string2 = ''
 let string = `/*
-你好，我叫周字彪
+你好，我叫Biao
 接下来我演示一下我的前端功底
 首先我要准备一个div
 */
