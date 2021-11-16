@@ -20,8 +20,15 @@ let string = `/*
 #div1{
     border-radius: 50%;
     box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.5);
-    border: none;
-    
+    border: none;    
+}
+/*
+八卦由阴阳两部分组成
+一黑一白
+*/
+#div1{
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+    animation: 3s whirl linear infinite;
 }
 @keyframes whirl {
     0%{
@@ -31,13 +38,6 @@ let string = `/*
         transform: rotate(360deg);
     }
 }
-/*
-八卦由阴阳两部分组成
-一黑一白
-*/
-#div1{
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
-    animation: 3s whirl linear infinite;
 /*
 加上两个神秘的小球
 */
